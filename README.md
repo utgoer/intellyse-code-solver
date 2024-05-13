@@ -35,7 +35,7 @@ configs = [
 ]
 ```
 5. For each solution, a Docker environment is created, and the code solution with assertion is run.
-6. When the solution is found, it is displayed. Otherwise, some failed solutions are displayed.
+6. When the solution is found(python code execution is successful), it is displayed. Otherwise, some failed solutions are displayed.
 
 Example solution:
 ```
@@ -66,7 +66,7 @@ By default, it is configured for production environment. For development environ
 ### Backend
 Go to backend folder.
 
-Create `.env` file following `.env.example`.
+Create `.env` file following `.env.example`. Edit `AZURE_OPEN_AI_API_KEY` and `AZURE_OPEN_AI_ENDPOINT`.
 
 If you are using a Linux environment, build and run the app using:
 ```
