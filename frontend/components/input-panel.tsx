@@ -20,7 +20,7 @@ const InputPanel = ({ toggleComponent, setSharedData }: { toggleComponent: () =>
 
   return (
     <>
-      <form onSubmit={handleMessageSubmit} className="flex w-full py-2 px-2 bg-systemGray-5 border-solid border border-white rounded-lg">
+      <form onSubmit={handleMessageSubmit} className="flex w-full py-2 px-2 bg-systemGray-5 border-solid border border-systemGray-2 rounded-lg">
         <textarea
           rows={5}
           value={inputText}
