@@ -75,6 +75,7 @@ If you are using a Unix environment, build and run the app using:
 
 By default, it is configured for production environment. For development environment and other configuration options see `.env` file.
 
+You can now visit `http://localhost:3000`.
 
 If you are running an environment other than Unix:
 
@@ -84,8 +85,6 @@ You need to map `/tmp` to your temporary folder (this is used to save python cod
 #### Option 2
 You can just run `pip3 install -r requirements.txt` and `flask run -h localhost -p 8080`.
 
-
-You can now visit `http://localhost:3000`.
 
 
 
