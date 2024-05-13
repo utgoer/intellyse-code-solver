@@ -68,7 +68,7 @@ Go to backend folder.
 
 Create `.env` file following `.env.example`. Edit `AZURE_OPEN_AI_API_KEY` and `AZURE_OPEN_AI_ENDPOINT`.
 
-If you are using a Linux environment, build and run the app using:
+If you are using a Unix environment, build and run the app using:
 ```
 ./run.sh dstart  
 ```
@@ -76,7 +76,7 @@ If you are using a Linux environment, build and run the app using:
 By default, it is configured for production environment. For development environment and other configuration options see `.env` file.
 
 
-If you are running an environment other than Linux:
+If you are running an environment other than Unix:
 
 #### Option 1
 You need to map `/tmp` to your temporary folder (this is used to save python codes to be runned) and `/var/run/docker.sock` to your docker socket (this is used to create isolated python executions) in the `docker-compose.yml` file`volumes` section.
