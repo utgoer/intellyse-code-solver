@@ -1,0 +1,11 @@
+services:
+  frontend:
+    image: solver-frontend
+    build:
+      context: ./
+      target: ${ENV}
+      dockerfile: Dockerfile
+    ports:
+      - "${PORT}:${PORT}"
+    env_file:
+      - .env

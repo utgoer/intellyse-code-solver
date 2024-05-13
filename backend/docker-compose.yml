@@ -1,0 +1,11 @@
+services:
+  backend:
+    image: solver-backend
+    build: ./
+    ports:
+     - "${PORT}:${PORT}"
+    env_file:
+      - .env
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp:/tmp

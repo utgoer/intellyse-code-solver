@@ -1,0 +1,2 @@
+[flake8]
+extend-ignore = W293, E501
