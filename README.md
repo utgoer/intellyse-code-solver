@@ -20,8 +20,7 @@ Example:
 > count_change(10, [5,2,3]) # => 4
 > count_change(11, [5,7]) # => 0
 
-![image](https://hackmd.io/_uploads/BJ7qwD1QC.png)
-
+<img width="600" alt="upload_5ceb737b74af7d877b4ce4a020ddcd7e" src="https://github.com/utgoer/intellyse-code-solver/assets/26162975/2ef8c263-5334-407d-911c-bb13d9124ad2">
 
 2. It generates Python assertions using GPT-3.5-turbo.
 3. It generates Python code solutions using GPT-3.5-turbo and GPT-4-turbo using the following configuration (from cheap solutions to expensive).
@@ -45,7 +44,7 @@ def count_change(amount, coins):
         return 0
     return count_change(amount - coins[0], coins) + count_change(amount, coins[1:])
 ```
-![image](https://hackmd.io/_uploads/r1cevO170.png)
+<img width="600" alt="upload_87fbec95f4aa333b8dcbb6a4dbb61756" src="https://github.com/utgoer/intellyse-code-solver/assets/26162975/bd5d205a-89a1-48f0-9812-6368380f5f0c">
 
 
 ## How to setup?
