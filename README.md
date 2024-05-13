@@ -76,7 +76,7 @@ If you are using a Linux environment, build and run the app using:
 By default, it is configured for production environment. For development environment and other configuration options see `.env` file.
 
 
-f you are running an environment other than Linux:
+If you are running an environment other than Linux:
 
 #### Option 1
 You need to map `/tmp` to your temporary folder (this is used to save python codes to be runned) and `/var/run/docker.sock` to your docker socket (this is used to create isolated python executions) in the `docker-compose.yml` file`volumes` section.
